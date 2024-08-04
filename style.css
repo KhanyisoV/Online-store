@@ -33,9 +33,76 @@
     transition: opacity 0.3s ease;
     
 }
-
-
+.listIcon{
   
+    padding: 0;
+  
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+.tray.open {
+    display: block;
+}
+
+.trayFont
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    left: 30%;
+    top:0;
+    font-size: 40px;
+}
+
+.whatsappButton{
+    background-color: white;
+    position: absolute;
+    top: 95px;
+    right: 250px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    background-color: rgba(255, 255, 255, 0);
+}
+.profileButton
+{
+    background-color: white;
+    position: absolute;
+    top: 165px;
+    right: 210px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    background-color: rgba(255, 255, 255, 0);
+}
+.trayBullets
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    font-size: 20px; 
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.tray {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    width: 100%;
+    background : linear-gradient(to right, black,white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 250px;
+    transition: transform 0.3s ease;
+}
+
+
 
 .searchBox input[type="text"]{
 
@@ -252,11 +319,34 @@ transform: scale(2);
     
     color: white;
     border-radius: 10px;
-    border-color: red;
+    border: none;
     margin-top: 20px;
     position: absolute;
     right: 0;
     
+}
+.instaIcon2
+{
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    right: 250px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  
+}
+.instaIcon2 :hover
+{
+    color: blue;
+}
+.instaIcon2 :active
+{
+    transform: scale(2);
 }
 .instaIcon :hover
 {
@@ -266,7 +356,53 @@ transform: scale(2);
 {
     transform: scale(2);
 }
+.Cart
+{
+    background-color: white;
+    position: absolute;
+    top: 325px;
+    right: 240px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  
+}
+.Cart :hover
+{
+    color: blue;
+}
+.Cart :active
+{
+    transform: scale(2);
+}
 
+.Fire-Sale
+{
+    background-color: white;
+    position: absolute;
+    top: 410px;
+    right: 250px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  
+}
+.Fire-Sale :hover
+{
+    color: blue;
+}
+.Fire-Sale :active
+{
+    transform: scale(2);
+}
 .AboutUs
 {
     color: white;
