@@ -1,0 +1,95 @@
+
+*
+{
+    background-image:url('Arsonist.png') ;
+    
+}
+
+.Headings
+
+{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    background: none;
+
+}
+
+.items
+{
+
+  
+    margin-top: 100px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+
+
+}
+
+#hoodies
+{
+    float: left;
+    padding-left: 50px;
+    background: none;
+}
+#T-shirt
+{
+    position: absolute;
+left: 50%;
+background: none;
+}
+#Sweaters
+{
+    float: right;
+    padding-right: 50px;
+    background: none;
+}
+.items :hover
+{
+color:blue;
+
+}
+#hoodiePic
+{
+
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    border-radius: 15px;
+    padding: 0;
+    background: none;
+
+}
+#T-shirtPic
+{
+
+    position: absolute;
+    top: 80px;
+    right: 0;
+    border-radius: 15px;
+    background: none;
+
+}
+#SweaterPic
+{
+
+    border-radius: 15px;
+    position: absolute;
+    top: 250px;
+    right: 30px;
+    background: none;
+
+}
+p
+{
+
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.692);
+    font-size: small;
+    padding: 10px 10px;
+    background: none;
+
+}
+
