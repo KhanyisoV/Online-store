@@ -227,11 +227,10 @@ opacity: 1;
 }
 
 .gallaryContainer {
-    position: relative;
-    width: 75%;
+    width: 65%;
     margin-top: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
+    
     border-radius: 10px;
 
 }
@@ -240,9 +239,9 @@ opacity: 1;
     box-sizing: border-box; /* Include padding and border in width */
 }
 .gallary{
-   
 
-    width: 75%;
+  text-align: center;
+   width: 80%;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
@@ -264,6 +263,14 @@ opacity: 1;
     right:0;
   
     
+}
+.gallaryPics
+{
+
+display:flex;
+width: 300px;
+height: 300px;
+
 }
 .previous :hover{
     background-color: rgba(0, 0, 255, 0.144);
@@ -413,5 +420,11 @@ transform: scale(2);
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
 
+
+}
+.firstImage
+{
+
+    text-align: center;
 
 }

@@ -1,0 +1,26 @@
+*
+{
+    background-image: url('Smiley\ Design.png');
+}
+
+#PageHead
+{
+color: white;
+text-align: center;
+margin-top: 60px;
+font-size: 25px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Pics
+{
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+}
+.PicStyle
+{
+    display: flex;
+
+}
