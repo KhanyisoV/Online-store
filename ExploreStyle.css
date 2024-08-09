@@ -31,20 +31,22 @@
 #hoodies
 {
     float: left;
-    padding-left: 50px;
+    padding-left: 150px;
     background: none;
 }
 #T-shirt
 {
     position: absolute;
-left: 50%;
+    top: 160px;
+    right:650px;
 background: none;
 }
 #Sweaters
 {
-    float: right;
-    padding-right: 50px;
-    background: none;
+    position: absolute;
+    top: 160px;
+    right:250px;
+background: none;
 }
 .items :hover
 {
@@ -56,8 +58,7 @@ color:blue;
 
     position: absolute;
     top: 250px;
-    left: 30px;
-    border-radius: 15px;
+    left: 50px;
     padding: 0;
     background: none;
 
@@ -66,19 +67,20 @@ color:blue;
 {
 
     position: absolute;
-    top: 80px;
-    right: 0;
-    border-radius: 15px;
+    top: 250px;
+    right:550px;
+   padding: 0;
     background: none;
 
 }
+
 #SweaterPic
 {
 
-    border-radius: 15px;
+ 
     position: absolute;
-    top: 250px;
-    right: 30px;
+    top: 246px;
+    right: 150px;
     background: none;
 
 }

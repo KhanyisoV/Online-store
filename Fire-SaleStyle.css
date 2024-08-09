@@ -1,0 +1,37 @@
+*
+{
+    background-color: black ;
+    
+}
+
+.Headings
+
+{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    background: none;
+
+}
+#Vid1
+{
+
+    position: absolute;
+    right: 35%;
+}
+#Winter-Sale
+{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 72%;
+    right: 45%;
+    cursor: pointer;
+}
+
+#Winter-Sale:hover
+{
+ color: blue;
+}
